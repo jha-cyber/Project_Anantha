@@ -3,7 +3,7 @@ Anantha is a snake bot which can be used for search operations during Earthquake
 
 
 # Components Used
--->ESP32
+**-->ESP32**
 -->ESP32 CAM Module
 -->SG90 Servo Motor(6 units)
 -->TTL Converter
