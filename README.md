@@ -57,10 +57,10 @@ Anantha is a snake bot which can be used for search operations during Earthquake
 
 
 # Software Stack
-1.Arduino IDE(C++)
-2.Python 3.14.3
-3.OpenCV
-4.YOLOv8(Ultralytics)
+1. Arduino IDE(C++)
+2. Python 3.14.3
+3. OpenCV
+4. YOLOv8(Ultralytics)
 
 
 **First Year Engineering Project made by Vikas Jha**
