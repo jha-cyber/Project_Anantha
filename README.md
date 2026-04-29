@@ -22,22 +22,21 @@ Anantha is a snake bot which can be used for search operations during Earthquake
 
 # Circuit Connections
   **Power Distribution**
-  12V(+)                    ----->           LM2596S(IN+)
-  12V(-)                    ----->           LM2596S(IN-)
-  LM2596S(OUT+)             ----->           5 Volt Rail 
-  LM2596S(OUT-)             ----->           Ground Rail 
-  Servo 1,3,5(Red Wire)     ----->           5 Volt Rail
-  Servo 1,3,5(Brown Wire)   ----->           Ground Rail
-
+  1. 12V(+)                    ----->           LM2596S(IN+)
+  2. 12V(-)                    ----->           LM2596S(IN-)
+  3. LM2596S(OUT+)             ----->           5 Volt Rail 
+  4. LM2596S(OUT-)             ----->           Ground Rail 
+  5. Servo 1,3,5(Red Wire)     ----->           5 Volt Rail
+  6. Servo 1,3,5(Brown Wire)   ----->           Ground Rail
+  
   **ESP32 Main**
-  5V      -----> 5V Rail line
-  GND     -----> Ground Rail line
-  Pin 13  -----> Servo 1(Yellow Wire)
-  Pin 27  -----> Servo 3(Yellow Wire)
-  Pin 25  -----> Servo 5(Yellow Wire)
- _NOTE- The servos are numbered 1,2,3,4,5,6 from tail to head and the alternate servos are connected to esp32 so that it can create a Slither movement using the   servos which move in the same plane, in our case it's vertical so that we can get the bot to move in a sinusodial wave manner._
-
-  _  
+  1. 5V      -----> 5V Rail line
+  2. GND     -----> Ground Rail line
+  3. Pin 13  -----> Servo 1(Yellow Wire)
+  4. Pin 27  -----> Servo 3(Yellow Wire)
+  5. Pin 25  -----> Servo 5(Yellow Wire)
+  _NOTE- The servos are numbered 1,2,3,4,5,6 from tail to head and the alternate servos are connected to esp32 so that it can create a Slither movement using the    servos which move in the same plane, in our case it's vertical so that we can get the bot to move in a sinusodial wave manner._
+  
   **ESP32-CAM**
   5V      -----> 5V Rail line
   GND     -----> Ground Rail line
@@ -58,8 +57,6 @@ Anantha is a snake bot which can be used for search operations during Earthquake
 2.Python 3.14.3
 3.OpenCV
 4.YOLOv8(Ultralytics)
-
-
 
 
 **First Year Engineering Project made by Vikas Jha**
