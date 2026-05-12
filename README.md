@@ -37,7 +37,7 @@ Anantha is a snake bot which can be used for search operations during Earthquake
   5. Pin 25  -----> Servo 5(Yellow Wire)
 
 
-  _NOTE- The servos are numbered 1,2,3,4,5,6 from tail to head and the alternate servos are connected to esp32 so that it can create a Slither movement using  the servos which move in the same plane, in our case it's vertical so that we can get the bot to move in a sinusodial wave manner._
+  _NOTE- The servos are numbered 1,2,3,4,5,6 from tail to head and the alternate servos are connected to esp32 so that it can create a Slither movement using  the servos which move in the same plane, in our case it's vertical so that we can get the bot to move in a pitch axis serpenoid curve._
   
   **ESP32-CAM**
   1. 5V      -----> 5V Rail line
